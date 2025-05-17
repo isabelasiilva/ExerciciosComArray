@@ -53,25 +53,7 @@ public class Numeros2 {
 
         media = soma / quantidade;
         System.out.println("A média aritmética é: " + media);
-    }
-
-    /* array inverso que eu fiz
-    public void imprimeArrayInverso() {
-        int variavel1 = arrayInverso[0];
-
-
-        arrayInverso[0] = arrayInverso[4];
-        arrayInverso[4] = variavel1;
-
-        variavel1 = arrayInverso[1];
-        arrayInverso[1] = arrayInverso[3];
-        arrayInverso[3] = variavel1;
-
-        for (int num : arrayInverso) {
-            System.out.print(num + " ");
-        }
-    }
-     */
+    }    
 
     public void imprimeArrayInverso() {
         for (int i = arrayInverso.length - 1; i >= 0; i--) {
