@@ -10,8 +10,8 @@ public class NumerosTest02 {
 
         // array.imprimeMedia();
 
-        // array.imprimeArrayInverso();
+        // array.imprimeArrayNomes();
 
-        array.imprimeArrayNomes();
+        array.imprimeSegundoMaior();
     }
 }
