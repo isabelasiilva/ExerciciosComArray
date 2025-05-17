@@ -72,4 +72,19 @@ public class Numeros2 {
             }
         }
     }
+
+     public void imprimeSegundoMaior() {
+        int maior = 0;
+        int segundoMaior = 0;
+
+        for (int num : arraySegundoMaior) {
+            if (num > maior){
+                maior = num;
+            } else {
+                segundoMaior = num;
+            }
+        }
+        System.out.println("maior: " + maior);
+        System.out.println("segundoMaior: " + segundoMaior);
+    }
 }
